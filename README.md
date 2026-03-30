@@ -28,11 +28,11 @@ source venv/bin/activate   # Mac/Linux
 # Windows:
 # venv\Scripts\activate
 ```
-##Install dependencies:
+###  Install dependencies:
 ```bash
 pip install torch matplotlib
 ```
-###RUN:
+###  RUN:
 ```bash
 python -m problems.inverse_diffusion
 ```
