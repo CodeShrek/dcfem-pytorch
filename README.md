@@ -7,7 +7,7 @@ This repository demonstrates the core idea behind my GSoC 2026 proposal for Deep
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Differentiable FEM-like assembly  
 - Conjugate Gradient (CG) solver (autograd-compatible)  
@@ -17,7 +17,7 @@ This repository demonstrates the core idea behind my GSoC 2026 proposal for Deep
 
 ---
 
-## 📦 Installation
+##  Installation
 
 Create a virtual environment (recommended):
 
@@ -27,3 +27,12 @@ source venv/bin/activate   # Mac/Linux
 
 # Windows:
 # venv\Scripts\activate
+```
+###Install dependencies:
+```bash
+pip install torch matplotlib
+```
+###RUn:
+```bash
+python -m problems.inverse_diffusion
+```
