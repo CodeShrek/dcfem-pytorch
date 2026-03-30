@@ -1,25 +1,36 @@
-# dcFEM Preliminary Work
+# dcFEM-PyTorch
 
-## Features
+A minimal differentiable FEM-style solver in PyTorch demonstrating:
+
 - Differentiable FEM-like assembly
-- Conjugate Gradient solver
-- Gradient flow through solver
-- Inverse problem (recover diffusion coefficient)
+- Conjugate Gradient (CG) solver
+- End-to-end gradient flow through solver
+- Inverse problem: recovery of diffusion coefficient \( D \)
 
-## Result
-D_true = 2.0  
-D_learned ≈ 2.0  
+This repository supports my GSoC 2026 proposal for DeepChem: **dcFEM (Differentiable FEM Framework)**.
 
-## Why this matters
-Demonstrates feasibility of differentiable FEM for DeepChem.
+---
 
-## What this demonstrates
+##  Features
 
-This experiment shows:
+-  Differentiable PDE solver in PyTorch  
+-  CG-based linear solver (autograd-compatible)  
+-  Inverse problem using L-BFGS  
+-  Visualization of true vs predicted solution  
 
-1. End-to-end differentiability of PDE solver
-2. Gradient flow through CG solver
-3. Successful recovery of unknown diffusion coefficient D
+---
 
-This directly validates the feasibility of differentiable FEM pipelines
-proposed in my GSoC project (dcFEM).
+##  Installation
+
+Create a virtual environment (recommended):
+
+
+##Great to have you here ...Please do Enjoy 
+###Peace out 
+
+```bash
+python -m venv venv
+source venv/bin/activate   # Mac/Linux
+
+# Windows:
+# venv\Scripts\activate
