@@ -1,32 +1,25 @@
 # dcFEM-PyTorch
 
-A minimal differentiable FEM-style solver in PyTorch demonstrating:
+A minimal differentiable Finite Element Method (FEM)-style solver implemented in PyTorch.
 
-- Differentiable FEM-like assembly
-- Conjugate Gradient (CG) solver
-- End-to-end gradient flow through solver
-- Inverse problem: recovery of diffusion coefficient \( D \)
-
-This repository supports my GSoC 2026 proposal for DeepChem: **dcFEM (Differentiable FEM Framework)**.
+This repository demonstrates the core idea behind my GSoC 2026 proposal for DeepChem:  
+**dcFEM (Differentiable FEM Framework)** — enabling end-to-end differentiable PDE solvers for scientific machine learning.
 
 ---
 
-##  Features
+## 🚀 Features
 
--  Differentiable PDE solver in PyTorch  
--  CG-based linear solver (autograd-compatible)  
--  Inverse problem using L-BFGS  
--  Visualization of true vs predicted solution  
+- Differentiable FEM-like assembly  
+- Conjugate Gradient (CG) solver (autograd-compatible)  
+- End-to-end gradient flow through solver  
+- Inverse problem: recovery of diffusion coefficient \( D \)  
+- Visualization of true vs predicted solution  
 
 ---
 
-##  Installation
+## 📦 Installation
 
 Create a virtual environment (recommended):
-
-
-##Great to have you here ...Please do Enjoy 
-###Peace out 
 
 ```bash
 python -m venv venv
